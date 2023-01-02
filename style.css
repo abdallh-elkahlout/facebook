@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Ms+Madi&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@500&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(241, 242, 246, 255);
+}
+
+.screen {
+    display: flex;
+    flex-direction: row;
+    padding: 120px 200px;
+    background-size: cover;
+    justify-content: space-between;
+}
+
+
+.form_div {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 25px rgba(1, 1, 1, 15%);
+    width: 390px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.left .form_div .input {
+    font-weight: 550;
+    padding: 15px;
+    border-radius: 5px;
+    border: solid 1px #c1c1c1;
+    width: 100%;
+    text-align: right;
+    margin-right: 25px;
+    margin-top: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+
+::placeholder {
+    color: #acb2b9;
+    opacity: 1;
+}
+
+.left .form_div .submit {
+    width: 100%;
+    color: white;
+    background-color: #237ff7;
+    border: none;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.left .form_div .submit:hover {
+    background-color: #1174f7;
+}
+
+
+.left .form_div .miss_pass a {
+    text-decoration: none;
+    color: #1f76ee;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+
+}
+
+.left .form_div .miss_pass :hover {
+    text-decoration: underline #1174f7;
+}
+
+.Line {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+}
+
+.left .form_div .new_acc {
+    background-color: #42b72a;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 48px;
+    padding: 0 16px
+}
+
+.left .form_div .button :hover {
+    background-color: #28b10d;
+}
+
+.left .form_info {
+    font-size: 15px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.left .form_info a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.right {
+    margin-left: 300px;
+    margin-top: 60px;
+    text-align: right;
+    line-height: 15px;
+}
+
+.right .facebook {
+    color: #1f7af4;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: -4px;
+}
+
+.right p {
+    color: black;
+    font-size: 20px;
+    line-height: 1.2;
+    width: auto;
+}
